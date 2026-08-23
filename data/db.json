@@ -15,6 +15,10 @@
     {
       "id": "p_004",
       "name": "Dr. M. Chen"
+    },
+    {
+      "id": "p_dr_jesus_mayer",
+      "name": "Dr. Jesus Mayer"
     }
   ],
   "locations": [
@@ -32,6 +36,11 @@
       "id": "l_003",
       "name": "North Annex",
       "facility_type": "annex"
+    },
+    {
+      "id": "l_gulf_bank_medical_center",
+      "name": "Gulf Bank Medical Center",
+      "facility_type": "clinic"
     }
   ],
   "payers": [
@@ -128,6 +137,186 @@
       "status": "paid",
       "charge_amount": 690,
       "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3001",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_001",
+      "date_of_service": "2026-08-03",
+      "provider_signed_at": "2026-08-03T17:30:00Z",
+      "submitted_at": "2026-08-04T08:00:00Z",
+      "status": "paid",
+      "charge_amount": 420,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3002",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_002",
+      "date_of_service": "2026-08-03",
+      "provider_signed_at": "2026-08-03T18:15:00Z",
+      "submitted_at": "2026-08-04T08:10:00Z",
+      "status": "paid",
+      "charge_amount": 610,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3003",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_003",
+      "date_of_service": "2026-08-04",
+      "provider_signed_at": "2026-08-04T16:45:00Z",
+      "submitted_at": "2026-08-05T07:50:00Z",
+      "status": "denied",
+      "charge_amount": 280,
+      "clean_first_pass": false
+    },
+    {
+      "claim_id": "c_3004",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_004",
+      "date_of_service": "2026-08-04",
+      "provider_signed_at": "2026-08-04T19:00:00Z",
+      "submitted_at": "2026-08-05T08:05:00Z",
+      "status": "paid",
+      "charge_amount": 750,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3005",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_005",
+      "date_of_service": "2026-08-05",
+      "provider_signed_at": "2026-08-05T17:00:00Z",
+      "submitted_at": "2026-08-06T07:45:00Z",
+      "status": "paid",
+      "charge_amount": 340,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3006",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_001",
+      "date_of_service": "2026-08-06",
+      "provider_signed_at": "2026-08-06T18:30:00Z",
+      "submitted_at": "2026-08-07T08:20:00Z",
+      "status": "paid",
+      "charge_amount": 890,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3007",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_002",
+      "date_of_service": "2026-08-06",
+      "provider_signed_at": "2026-08-06T20:00:00Z",
+      "submitted_at": "2026-08-08T09:00:00Z",
+      "status": "denied",
+      "charge_amount": 410,
+      "clean_first_pass": false
+    },
+    {
+      "claim_id": "c_3008",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_003",
+      "date_of_service": "2026-08-07",
+      "provider_signed_at": "2026-08-07T17:15:00Z",
+      "submitted_at": "2026-08-08T07:40:00Z",
+      "status": "paid",
+      "charge_amount": 525,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3009",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_004",
+      "date_of_service": "2026-08-10",
+      "provider_signed_at": "2026-08-10T18:00:00Z",
+      "submitted_at": "2026-08-11T08:00:00Z",
+      "status": "paid",
+      "charge_amount": 660,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3010",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_005",
+      "date_of_service": "2026-08-10",
+      "provider_signed_at": "2026-08-10T19:30:00Z",
+      "submitted_at": "2026-08-11T08:15:00Z",
+      "status": "paid",
+      "charge_amount": 295,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3011",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_001",
+      "date_of_service": "2026-08-11",
+      "provider_signed_at": "2026-08-11T17:45:00Z",
+      "submitted_at": "2026-08-12T07:55:00Z",
+      "status": "paid",
+      "charge_amount": 780,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3012",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_002",
+      "date_of_service": "2026-08-12",
+      "provider_signed_at": "2026-08-12T18:20:00Z",
+      "submitted_at": "2026-08-13T08:10:00Z",
+      "status": "denied",
+      "charge_amount": 365,
+      "clean_first_pass": false
+    },
+    {
+      "claim_id": "c_3013",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_003",
+      "date_of_service": "2026-08-13",
+      "provider_signed_at": "2026-08-13T17:00:00Z",
+      "submitted_at": "2026-08-14T07:35:00Z",
+      "status": "paid",
+      "charge_amount": 540,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3014",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_004",
+      "date_of_service": "2026-08-14",
+      "provider_signed_at": "2026-08-14T19:15:00Z",
+      "submitted_at": "2026-08-15T08:25:00Z",
+      "status": "paid",
+      "charge_amount": 455,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_3015",
+      "provider_id": "p_dr_jesus_mayer",
+      "location_id": "l_gulf_bank_medical_center",
+      "payer_id": "pay_005",
+      "date_of_service": "2026-08-17",
+      "provider_signed_at": "2026-08-17T18:00:00Z",
+      "submitted_at": "2026-08-18T08:00:00Z",
+      "status": "submitted",
+      "charge_amount": 610,
+      "clean_first_pass": true
     }
   ],
   "denials": [
@@ -141,11 +330,29 @@
       "resolved_at": null
     },
     {
-      "denial_id": "d_2",
-      "claim_id": "c_1005",
-      "denied_at": "2026-08-16T10:00:00Z",
+      "denial_id": "d_3001",
+      "claim_id": "c_3003",
+      "denied_at": "2026-08-07T10:00:00Z",
+      "reason_code": "eligibility",
+      "resubmitted_at": "2026-08-07T15:00:00Z",
+      "appeal_status": "filed",
+      "resolved_at": null
+    },
+    {
+      "denial_id": "d_3002",
+      "claim_id": "c_3007",
+      "denied_at": "2026-08-10T10:30:00Z",
+      "reason_code": "auth_referral",
+      "resubmitted_at": "2026-08-10T16:00:00Z",
+      "appeal_status": "in_review",
+      "resolved_at": null
+    },
+    {
+      "denial_id": "d_3003",
+      "claim_id": "c_3012",
+      "denied_at": "2026-08-15T09:45:00Z",
       "reason_code": "modifier",
-      "resubmitted_at": "2026-08-16T14:00:00Z",
+      "resubmitted_at": "2026-08-15T14:30:00Z",
       "appeal_status": "none",
       "resolved_at": null
     }
@@ -158,15 +365,6 @@
       "posted_amount": 48200,
       "bank_deposit_id": "bd_101",
       "bank_matched_amount": 48200,
-      "reconciliation_status": "matched"
-    },
-    {
-      "payment_id": "pm_2",
-      "claim_id": "c_1003",
-      "posted_at": "2026-08-12T20:00:00Z",
-      "posted_amount": 51900,
-      "bank_deposit_id": "bd_102",
-      "bank_matched_amount": 51900,
       "reconciliation_status": "matched"
     },
     {
@@ -195,6 +393,105 @@
       "bank_deposit_id": "bd_105",
       "bank_matched_amount": 52680,
       "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3001",
+      "claim_id": "c_3001",
+      "posted_at": "2026-08-04T20:00:00Z",
+      "posted_amount": 420,
+      "bank_deposit_id": "bd_301",
+      "bank_matched_amount": 420,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3002",
+      "claim_id": "c_3002",
+      "posted_at": "2026-08-04T20:00:00Z",
+      "posted_amount": 610,
+      "bank_deposit_id": "bd_301",
+      "bank_matched_amount": 610,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3003",
+      "claim_id": "c_3004",
+      "posted_at": "2026-08-06T20:00:00Z",
+      "posted_amount": 750,
+      "bank_deposit_id": "bd_302",
+      "bank_matched_amount": 750,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3004",
+      "claim_id": "c_3005",
+      "posted_at": "2026-08-07T20:00:00Z",
+      "posted_amount": 340,
+      "bank_deposit_id": "bd_303",
+      "bank_matched_amount": 340,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3005",
+      "claim_id": "c_3006",
+      "posted_at": "2026-08-08T20:00:00Z",
+      "posted_amount": 890,
+      "bank_deposit_id": "bd_304",
+      "bank_matched_amount": 860,
+      "reconciliation_status": "variance"
+    },
+    {
+      "payment_id": "pm_3006",
+      "claim_id": "c_3008",
+      "posted_at": "2026-08-09T20:00:00Z",
+      "posted_amount": 525,
+      "bank_deposit_id": "bd_305",
+      "bank_matched_amount": 525,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3007",
+      "claim_id": "c_3009",
+      "posted_at": "2026-08-12T20:00:00Z",
+      "posted_amount": 660,
+      "bank_deposit_id": "bd_306",
+      "bank_matched_amount": 660,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3008",
+      "claim_id": "c_3010",
+      "posted_at": "2026-08-12T20:00:00Z",
+      "posted_amount": 295,
+      "bank_deposit_id": "bd_306",
+      "bank_matched_amount": 295,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3009",
+      "claim_id": "c_3011",
+      "posted_at": "2026-08-13T20:00:00Z",
+      "posted_amount": 780,
+      "bank_deposit_id": null,
+      "bank_matched_amount": null,
+      "reconciliation_status": "pending"
+    },
+    {
+      "payment_id": "pm_3010",
+      "claim_id": "c_3013",
+      "posted_at": "2026-08-15T20:00:00Z",
+      "posted_amount": 540,
+      "bank_deposit_id": "bd_307",
+      "bank_matched_amount": 540,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3011",
+      "claim_id": "c_3014",
+      "posted_at": "2026-08-16T20:00:00Z",
+      "posted_amount": 455,
+      "bank_deposit_id": "bd_308",
+      "bank_matched_amount": 455,
+      "reconciliation_status": "matched"
     }
   ],
   "bank_feed": [
@@ -222,6 +519,46 @@
       "date": "2026-08-15",
       "deposit_id": "bd_105",
       "amount": 52680
+    },
+    {
+      "date": "2026-08-04",
+      "deposit_id": "bd_301",
+      "amount": 1030
+    },
+    {
+      "date": "2026-08-06",
+      "deposit_id": "bd_302",
+      "amount": 750
+    },
+    {
+      "date": "2026-08-07",
+      "deposit_id": "bd_303",
+      "amount": 340
+    },
+    {
+      "date": "2026-08-08",
+      "deposit_id": "bd_304",
+      "amount": 860
+    },
+    {
+      "date": "2026-08-09",
+      "deposit_id": "bd_305",
+      "amount": 525
+    },
+    {
+      "date": "2026-08-12",
+      "deposit_id": "bd_306",
+      "amount": 955
+    },
+    {
+      "date": "2026-08-15",
+      "deposit_id": "bd_307",
+      "amount": 540
+    },
+    {
+      "date": "2026-08-16",
+      "deposit_id": "bd_308",
+      "amount": 455
     }
   ]
-}
+}%
