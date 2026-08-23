@@ -1,0 +1,2 @@
+denial_id,claim_id,denied_at,reason_code,resubmitted_at,appeal_status,resolved_at
+d_2001,c_2002,2026-08-14T10:00:00Z,auth_referral,2026-08-14T15:00:00Z,filed,

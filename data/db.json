@@ -1,0 +1,227 @@
+{
+  "providers": [
+    {
+      "id": "p_001",
+      "name": "Dr. A. Rahman"
+    },
+    {
+      "id": "p_002",
+      "name": "Dr. S. Kapoor"
+    },
+    {
+      "id": "p_003",
+      "name": "Dr. L. Ferreira"
+    },
+    {
+      "id": "p_004",
+      "name": "Dr. M. Chen"
+    }
+  ],
+  "locations": [
+    {
+      "id": "l_001",
+      "name": "Downtown Clinic",
+      "facility_type": "clinic"
+    },
+    {
+      "id": "l_002",
+      "name": "Westside Facility",
+      "facility_type": "facility"
+    },
+    {
+      "id": "l_003",
+      "name": "North Annex",
+      "facility_type": "annex"
+    }
+  ],
+  "payers": [
+    {
+      "id": "pay_001",
+      "name": "Medicare"
+    },
+    {
+      "id": "pay_002",
+      "name": "BCBS"
+    },
+    {
+      "id": "pay_003",
+      "name": "UnitedHealthcare"
+    },
+    {
+      "id": "pay_004",
+      "name": "Aetna"
+    },
+    {
+      "id": "pay_005",
+      "name": "Cigna"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c_1001",
+      "provider_id": "p_001",
+      "location_id": "l_001",
+      "payer_id": "pay_001",
+      "date_of_service": "2026-08-11",
+      "provider_signed_at": "2026-08-11T18:00:00Z",
+      "submitted_at": "2026-08-12T09:00:00Z",
+      "status": "paid",
+      "charge_amount": 540,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_1002",
+      "provider_id": "p_002",
+      "location_id": "l_002",
+      "payer_id": "pay_002",
+      "date_of_service": "2026-08-11",
+      "provider_signed_at": "2026-08-11T20:00:00Z",
+      "submitted_at": "2026-08-13T09:00:00Z",
+      "status": "denied",
+      "charge_amount": 320,
+      "clean_first_pass": false
+    },
+    {
+      "claim_id": "c_1003",
+      "provider_id": "p_003",
+      "location_id": "l_003",
+      "payer_id": "pay_003",
+      "date_of_service": "2026-08-12",
+      "provider_signed_at": "2026-08-12T17:30:00Z",
+      "submitted_at": "2026-08-13T08:00:00Z",
+      "status": "paid",
+      "charge_amount": 875,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_1004",
+      "provider_id": "p_004",
+      "location_id": "l_001",
+      "payer_id": "pay_004",
+      "date_of_service": "2026-08-13",
+      "provider_signed_at": "2026-08-13T16:00:00Z",
+      "submitted_at": "2026-08-14T07:30:00Z",
+      "status": "paid",
+      "charge_amount": 410,
+      "clean_first_pass": true
+    },
+    {
+      "claim_id": "c_1005",
+      "provider_id": "p_001",
+      "location_id": "l_002",
+      "payer_id": "pay_005",
+      "date_of_service": "2026-08-14",
+      "provider_signed_at": "2026-08-14T19:00:00Z",
+      "submitted_at": "2026-08-15T08:15:00Z",
+      "status": "denied",
+      "charge_amount": 260,
+      "clean_first_pass": false
+    },
+    {
+      "claim_id": "c_1006",
+      "provider_id": "p_002",
+      "location_id": "l_003",
+      "payer_id": "pay_001",
+      "date_of_service": "2026-08-15",
+      "provider_signed_at": "2026-08-15T15:00:00Z",
+      "submitted_at": "2026-08-16T07:00:00Z",
+      "status": "paid",
+      "charge_amount": 690,
+      "clean_first_pass": true
+    }
+  ],
+  "denials": [
+    {
+      "denial_id": "d_1",
+      "claim_id": "c_1002",
+      "denied_at": "2026-08-14T10:00:00Z",
+      "reason_code": "auth_referral",
+      "resubmitted_at": "2026-08-14T15:00:00Z",
+      "appeal_status": "filed",
+      "resolved_at": null
+    },
+    {
+      "denial_id": "d_2",
+      "claim_id": "c_1005",
+      "denied_at": "2026-08-16T10:00:00Z",
+      "reason_code": "modifier",
+      "resubmitted_at": "2026-08-16T14:00:00Z",
+      "appeal_status": "none",
+      "resolved_at": null
+    }
+  ],
+  "payments": [
+    {
+      "payment_id": "pm_1",
+      "claim_id": "c_1001",
+      "posted_at": "2026-08-11T20:00:00Z",
+      "posted_amount": 48200,
+      "bank_deposit_id": "bd_101",
+      "bank_matched_amount": 48200,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_2",
+      "claim_id": "c_1003",
+      "posted_at": "2026-08-12T20:00:00Z",
+      "posted_amount": 51900,
+      "bank_deposit_id": "bd_102",
+      "bank_matched_amount": 51900,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_3",
+      "claim_id": "c_1004",
+      "posted_at": "2026-08-13T20:00:00Z",
+      "posted_amount": 39750,
+      "bank_deposit_id": "bd_103",
+      "bank_matched_amount": 38900,
+      "reconciliation_status": "variance"
+    },
+    {
+      "payment_id": "pm_4",
+      "claim_id": "c_1006",
+      "posted_at": "2026-08-14T20:00:00Z",
+      "posted_amount": 44300,
+      "bank_deposit_id": "bd_104",
+      "bank_matched_amount": 44300,
+      "reconciliation_status": "matched"
+    },
+    {
+      "payment_id": "pm_5",
+      "claim_id": "c_1001",
+      "posted_at": "2026-08-15T20:00:00Z",
+      "posted_amount": 52680,
+      "bank_deposit_id": "bd_105",
+      "bank_matched_amount": 52680,
+      "reconciliation_status": "matched"
+    }
+  ],
+  "bank_feed": [
+    {
+      "date": "2026-08-11",
+      "deposit_id": "bd_101",
+      "amount": 48200
+    },
+    {
+      "date": "2026-08-12",
+      "deposit_id": "bd_102",
+      "amount": 51900
+    },
+    {
+      "date": "2026-08-13",
+      "deposit_id": "bd_103",
+      "amount": 38900
+    },
+    {
+      "date": "2026-08-14",
+      "deposit_id": "bd_104",
+      "amount": 44300
+    },
+    {
+      "date": "2026-08-15",
+      "deposit_id": "bd_105",
+      "amount": 52680
+    }
+  ]
+}

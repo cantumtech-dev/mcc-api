@@ -1,0 +1,15 @@
+{
+  "name": "mcc-dashboard-mvp",
+  "version": "0.1.0",
+  "description": "Minimal-overhead backend for the Medical Care Center RCM dashboard MVP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "reconcile": "node jobs/nightlyReconciliation.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}

@@ -1,0 +1,2 @@
+payment_id,claim_id,posted_at,posted_amount,bank_deposit_id,bank_matched_amount,reconciliation_status
+pm_2001,c_2001,2026-08-11T20:00:00Z,540,,,pending
